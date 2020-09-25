@@ -28,8 +28,8 @@ func ImportCCLFPackage(acoSize, environment string) (err error) {
 		"medium":      "A9991",
 		"large":       "A9992",
 		"extra-large": "A9993",
-		"next-gen":    "V9997",
-		"cec":         "E9998",
+		"next-gen":    "V9995",
+		"cec":         "E9996",
 	}[acoSize]
 	if acoIDNum == "" {
 		return errors.New("invalid argument for ACO size")
